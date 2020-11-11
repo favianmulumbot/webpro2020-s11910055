@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formulir</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+           <legend>Formulir Calon Pegawai</legend>
+        <p>
+           <label>Nama : </label>
+           <input type="text" name="name"/>
+        </p>
+        <p>
+           <label>Alamat: </label>
+           <input type="text" name="address" /> 
+        </p>
+        <p>
+           <label>Password :</label>
+           <input type="Password" name="Password" /> 
+        </p>
+        <p>
+           <label>Jenis Kelamin : </label>
+           <label><input type="radio" name="Gender" value="Laki-laki">Laki-laki</label>
+           <label><input type="radio" name="Gender" value="Perempuan">Perempuan</label>
+        </p>
+         <p>
+            <label>Bahasa Pemograman anda dikuasai :</label>
+            <label><input type="radio" name="Bahasa Pemograman anda dikuasai" value="Web">Web</label>
+            <label><input type="radio" name="Bahasa Pemograman anda dikuasai" value="Mobile">Mobile</label>
+            <label><input type="radio" name="Bahasa Pemograman anda dikuasai" value="Desktop">Desktop</label>
+         </p>
+         <p>
+            <label>Kota Asal :</label>
+             <select>
+                 <option value="Semarang">Semarang</option>
+                 <option value="Manado">Manado</option>
+                 <option value="Makassar">Makassar</option>
+                 <option value="Palu">Palu</option>
+                 <option value="Minahasa">Minahasa</option>
+                 <option value="Jakarta">Jakarta</option>
+             </select>
+         </p>
+         <p>
+             <label>Apa yang Membuat Kami harus memilih Anda?:</label>
+            <br> <textarea cols="50" rows="10" placeholder="Tulis jawaban Anda di sini"></textarea>
+         </p>
+         <p>
+             <button>Proses</button>
+         </p>
+        </fieldset>
+    </form>
+</body>
+</html>
